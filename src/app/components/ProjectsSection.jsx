@@ -48,7 +48,7 @@ const projectsData = [
         description: `Next.JS / Tailwind`,
         image: '/images/projects/6.png',
         tag: ['All', 'Web + Design'],
-        link: 'https://apple.com/'
+        link: '/'
     },
     {
         id: 7,
