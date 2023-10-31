@@ -1,0 +1,86 @@
+'use client';
+import React, { useTransition, useState } from 'react';
+import Image from 'next/image';
+import TabButton from './TabButton';
+
+const TAB_DATA = [
+    {
+        'title': 'Skills',
+        'id': 'skills',
+        'content': (
+            <div className='flex lg:gap-20 justify-start flex-wrap gap-3.5'>
+            <ul className="list-disc pl-2 h-[165px]">
+                <li>HTML + CSS</li>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>Next.JS</li>
+                <li>Sanity</li>
+            </ul>
+            <ul className="list-disc pl-2 h-[165px]">
+                <li>Tailwind</li>
+                <li>SASS</li>
+                <li>Wordpress</li>
+                <li>Figma</li>
+                <li>SQL</li>
+            </ul>
+            </div>
+        )
+    },
+    {
+        'title': 'Education',
+        'id': 'education',
+        'content': (
+            <ul className="list-disc pl-2 h-[165px]">
+                <li><span className='font-semibold'>Gzhel State Unversity</span> - Bachelor of Design (2022)</li>
+                <li><span className='font-semibold'>Yandex Praktikum</span> - 'React-Developer' (2023)</li>
+                <li><span className='font-semibold'>Moscow Coding School (GUIDEDAO)</span> - 'Solidity-Developer' (WIP)</li>
+            </ul>
+        )
+    },
+    {
+        'title': 'Experience',
+        'id': 'experience',
+        'content': (
+            <ul className="list-disc pl-2 h-[165px]">
+                <li><a href='https://www.justwebagency.com/' target='_blank' className='font-semibold'>Just Web Agency (CA)</a> - 'Wordpress Developer' (July 2023 - October 2023)</li>
+            </ul>
+        )
+    }
+]
+
+const AboutSection = () => {
+
+    const [tab, setTab] = useState('skills');
+    const [isPending, startTransition] = useTransition();
+
+    const handleTabChange = (id) => {
+        startTransition(() => {
+            setTab(id);
+        });
+    }
+
+    return (
+        <section className='text-black'>
+            <div className='xxs:grid md:flex md:flex-col xxs:items-center lg:grid md:grid-cols-2 gap-8 items-top lg:items-start py-8 px-4 xl:gap-16 sm:py-16'>
+                <Image src='/images/hero-image.png' width={500} height={500} className="m-auto"/>
+                <div className='mt-4 md:mt-0 text-left flex flex-col h-full xxs:order-[-1] lg:order-1'>
+                    <h2 className='text-4xl font-bold text-black mb-4 mt-4 xxs:text-center lg:text-start'>About Me</h2>
+                    <p className='text-base lg:text-lg xxs:text-center md:text-start'>
+                        I'm a full stack web developer with a passion for creating interactive and responsive web applications. I have expirience working with Javascript, React, Next.JS, Sanity, Tailwind, SQL, Wordpress, HTML, CSS and Git. I am a quickly learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create  amazing applications.
+                    </p>
+                    <div className='flex flex-row mt-8 gap-2 flex-wrap lg:justify-start xxs:justify-center'>
+                        <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>{' '}Skills{' '}</TabButton>
+                        <TabButton selectTab={() => handleTabChange('education')} active={tab === 'education'}>{' '}Education{' '}</TabButton>
+                        <TabButton selectTab={() => handleTabChange('experience')} active={tab === 'experience'}>{' '}Experience{' '}</TabButton>
+                    </div>
+
+                    <div className="mt-8 ml-4">
+                        {TAB_DATA.find((t) => t.id === tab).content}
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+};
+
+export default AboutSection;
