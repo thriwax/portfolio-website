@@ -11,7 +11,7 @@ export default function Home() {
     <Head>
       <title>Fedor T. - Portfolio Website</title>
     </Head>
-    <main className="flex min-h-screen flex-col bg-[#fdfdfd]">
+    <main className="flex min-h-screen flex-col bg-[#fdfdfd] scroll-smooth">
       <Navbar />
       <div className='container mt-24 mx-auto lg:px-12 py-4'>
         <HeroSection />

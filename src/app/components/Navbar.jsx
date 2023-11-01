@@ -5,7 +5,8 @@ import React, { useState } from 'react';
 import NavLink from './NavLink';
 import { Bars3Icon, MinusIcon } from '@heroicons/react/24/solid';
 import MenuOverlay from './MenuOverlay';
-import gitIcon from '../../../public/images/github-mark-white.svg'
+import gitIcon from '../../../public/images/github-mark-white.svg';
+import instIcon from '../../../public/images/instagram.svg';
 
 const navLinks = [
     {
@@ -21,8 +22,12 @@ const navLinks = [
         path: '#contact'
     },
     {
-        title:  (<div className='flex items-center justify-center bg-gradient-to-r from-violet-400 to-blue-500 shadow-inner p-3 rounded-full hover:bg-slate-400 animate-pulse'><Image src={gitIcon} width={20} height={15}/></div>),
+        title:  (<div className='flex items-center justify-center bg-gradient-to-r from-violet-400 to-blue-500 shadow-inner p-3 rounded-full hover:bg-slate-400 hover:animate-pulse'><Image src={gitIcon} width={20} height={15}/></div>),
         path: 'https://github.com/thriwax/'
+    },
+    {
+        title:  (<div className='lg:hidden xxs:flex items-center justify-center bg-gradient-to-r from-red-400 to-blue-500 shadow-inner p-3 rounded-full hover:bg-slate-400 hover:animate-pulse'><Image src={instIcon} width={20} height={15}/></div>),
+        path: 'https://instagram.com/thriwax/'
     }
 ];
 
@@ -31,7 +36,7 @@ const Navbar = () => {
     return (
         <nav className='absolute top-0 left-0 right-0 z-10'>
             <div className='flex flex-wrap items-center justify-between mx-auto p-8'>
-                <Link href={'/'} className='text-2xl md:text-5xl text-black font-semibold xxs:text-xl'>
+                <Link href={'/'} className='text-2xl md:text-3xl text-white bg-black font-semibold px-1 xxs:text-xl'>
                     Fedor Tatarintsev
                 </Link>
                 <div className='mobile-menu block lg:hidden duration-75 delay-150'>
