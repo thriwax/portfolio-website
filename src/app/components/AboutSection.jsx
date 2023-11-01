@@ -60,10 +60,10 @@ const AboutSection = () => {
     }
 
     return (
-        <section className='text-black'>
+        <section className='text-black' id='about'>
             <div className='xxs:grid md:flex md:flex-col xxs:items-center lg:grid md:grid-cols-2 gap-8 items-top lg:items-start py-8 px-4 xl:gap-16 sm:py-16'>
-                <Image src='/images/hero-image.png' width={500} height={500} className="m-auto"/>
-                <div className='mt-4 md:mt-0 text-left flex flex-col h-full xxs:order-[-1] lg:order-1'>
+                <Image src='/images/about.png' width={550} height={550} className="m-auto"/>
+                <div className='mt-2 md:mt-0 text-left flex flex-col h-full xxs:order-[-1] lg:order-1'>
                     <h2 className='text-4xl font-bold text-black mb-4 mt-4 xxs:text-center lg:text-start'>About Me</h2>
                     <p className='text-base lg:text-lg xxs:text-center md:text-start'>
                         I'm a full stack web developer with a passion for creating interactive and responsive web applications. I have expirience working with Javascript, React, Next.JS, Sanity, Tailwind, SQL, Wordpress, HTML, CSS and Git. I am a quickly learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create  amazing applications.

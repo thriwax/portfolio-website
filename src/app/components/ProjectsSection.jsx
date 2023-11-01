@@ -12,7 +12,7 @@ const projectsData = [
     },
     {
         id: 2,
-        title: `Children's Speech Therapy Center Website`,
+        title: `Speech Therapy Center Website`,
         description: `HTML / CSS / JS`,
         image: '/images/projects/2.png',
         tag: ['All', 'Web + Design'],
@@ -20,7 +20,7 @@ const projectsData = [
     },
     {
         id: 3,
-        title: `Construction Equipment Rental Website`,
+        title: `Equipment Rental Website`,
         description: `HTML / SCSS / JS`,
         image: '/images/projects/3.png',
         tag: ['All', 'Web + Design'],
@@ -48,7 +48,7 @@ const projectsData = [
         description: `Next.JS / Tailwind`,
         image: '/images/projects/6.png',
         tag: ['All', 'Web + Design'],
-        link: '/'
+        link: 'https://apple.com/'
     },
     {
         id: 7,
@@ -78,12 +78,12 @@ const projectsData = [
 
 const ProjectsSection = () => {
   return (
-    <>
-        <h2 className='text-center text-4xl font-bold text-white mt-4'>My Projects</h2>
-        <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+    <div id='projects'>
+        <h2 className='text-center text-4xl font-bold text-black mt-4 pb-4'>My Projects</h2>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 my-4 pb-20'>
             {projectsData.map((project) => <ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} link={project.link}/>)}
         </div>
-    </>
+    </div>
   )
 }
 
