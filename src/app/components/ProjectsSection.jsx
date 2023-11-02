@@ -1,4 +1,5 @@
-import React from 'react';
+"use client"
+import React, {useState} from 'react';
 import ProjectCard from './ProjectCard';
 
 const projectsData = [
@@ -12,7 +13,7 @@ const projectsData = [
     },
     {
         id: 2,
-        title: `Speech Therapy Center Website`,
+        title: `Speech Center Website`,
         description: `#HTML #CSS #JS`,
         image: '/images/projects/2.png',
         tag: ['All', 'Web + Design'],
@@ -48,7 +49,7 @@ const projectsData = [
         description: `#NEXT.JS #TAILWIND`,
         image: '/images/projects/6.png',
         tag: ['All', 'Web + Design'],
-        link: 'https://apple.com/'
+        link: '/'
     },
     {
         id: 7,
@@ -77,14 +78,29 @@ const projectsData = [
 ]
 
 const ProjectsSection = () => {
-  return (
-    <div id='projects'>
-        <h2 className='text-center text-3xl font-bold text-black mt-4 pb-4'>My Projects</h2>
-        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 my-4 pb-20'>
-            {projectsData.map((project) => <ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} link={project.link}/>)}
+    const [visibleProjects, setVisibleProjects] = useState(3);
+    const showMore = () => {
+        setVisibleProjects(visibleProjects + 6);
+    };
+
+    return (
+        <div id='projects'>
+            <h2 className='text-center text-3xl font-bold text-black mt-4 pb-4'>My Projects</h2>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 my-4 pb-8'>
+                {projectsData.slice(0, visibleProjects).map((project) => (
+                    <ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} link={project.link} />
+                ))}
+            </div>
+            {visibleProjects < projectsData.length && (
+                <button
+                    onClick={showMore}
+                    className='flex justify-center m-auto bg-gradient-to-br from-violet-400 to-blue-500 text-white font-semibold py-2 px-4 rounded-full focus:outline-none focus:ring focus:border-blue-300 hover:bg-black'
+                >
+                    More
+                </button>
+            )}
         </div>
-    </div>
-  )
-}
+    );
+};
 
 export default ProjectsSection;

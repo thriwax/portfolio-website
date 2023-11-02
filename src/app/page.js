@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Fedor T. - Portfolio Website</title>
+        <link rel="shortcut icon" href='/favicon.ico' type='image/x-icon'/>
     </Head>
     <main className="flex min-h-screen flex-col bg-[#fdfdfd] scroll-smooth">
       <Navbar />
