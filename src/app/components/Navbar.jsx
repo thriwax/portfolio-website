@@ -11,7 +11,7 @@ import GithubIcon from './UI/GithubIcon';
 const navLinks = [
     {
         title: 'About',
-        path: '#about'
+        path: 'about'
     },
     {
         title: 'Projects',
@@ -19,7 +19,7 @@ const navLinks = [
     },
     {
         title: 'Contact',
-        path: '#contact'
+        path: 'contact'
     },
     {
         title:  (<GithubIcon />),
