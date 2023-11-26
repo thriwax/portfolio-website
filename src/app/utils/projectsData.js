@@ -70,6 +70,14 @@ const projectsData = [
         image: '/images/projects/9.png',
         tag: ['All', 'Web + Design'],
         link: 'https://rightbins.ca/bobcat-track-loader-rental/'
+    },
+    {
+        id: 10,
+        title: `Fiable`,
+        description: `#WORDPRESS #ELEMENTOR #WOOCOMMERCE`,
+        image: '/images/projects/10.png',
+        tag: ['All', 'Web + Design'],
+        link: 'https://fiableluxury.com/'
     }
 ];
 
