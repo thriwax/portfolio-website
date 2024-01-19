@@ -1,25 +1,49 @@
 const projectsData = [
     {
         id: 1,
-        title: 'Music Label Website',
-        description: `#NEXT.JS #SCSS`,
-        image: '/images/projects/1.png',
-        tag: ['All', 'Web'],
+        title: 'Khoros - Music Label Website',
+        description: `#NEXT.JS #REACT #SCSS #FIGMA`,
+        image: '/images/projects/khoros.png',
+        tag: ['All', 'Web + Design'],
         link: 'https://www.xop.su/'
     },
     {
         id: 2,
-        title: `LVG Real Estate Agency`,
-        description: `#WORDPRESS #ELEMENTOR`,
-        image: '/images/projects/11.png',
+        title: 'Denis Zuev - Official Website',
+        description: `#WORDPRESS #ELEMENTOR #FIGMA`,
+        image: '/images/projects/deniszuev.png',
+        tag: ['All', 'Web + DESIGN'],
+        link: 'https://zuevboxing.com/'
+    },
+    {
+        id: 3,
+        title: 'RoseCare - Shop',
+        description: `#WORDPRESS #WOOCOMMERCE #ELEMENTOR #FIGMA`,
+        image: '/images/projects/rosecare.png',
+        tag: ['All', 'Web + DESIGN'],
+        link: 'https://rosecare.ps/'
+    },
+    {
+        id: 2,
+        title: `LVG Real Estate Agency - Website`,
+        description: `#WORDPRESS #ELEMENTOR #FIGMA`,
+        image: '/images/projects/lvg.png',
         tag: ['All', 'Web + Design'],
         link: 'https://lvgrealestatedubai.com/'
     },
     {
         id: 3,
         title: `Fiable`,
-        description: `#WORDPRESS #ELEMENTOR #WOOCOMMERCE`,
-        image: '/images/projects/10.png',
+        description: `#WORDPRESS #WOOCOMMERCE #ELEMENTOR`,
+        image: '/images/projects/fiable.png',
+        tag: ['All', 'Web + Design'],
+        link: 'https://fiableluxury.com/'
+    },
+    {
+        id: 4,
+        title: `Quantis Consultants - Website`,
+        description: `#WORDPRESS #ELEMENTOR #FIGMA`,
+        image: '/images/projects/quantis.png',
         tag: ['All', 'Web + Design'],
         link: 'https://fiableluxury.com/'
     },
@@ -27,7 +51,7 @@ const projectsData = [
         id: 4,
         title: `Equipment Rental Website`,
         description: `#HTML #SCSS #JS`,
-        image: '/images/projects/3.png',
+        image: '/images/projects/kolomna.png',
         tag: ['All', 'Web + Design'],
         link: 'https://xn----7sbbrpejcjkehcibuqsd5d.xn--p1ai/'
     },
@@ -35,7 +59,7 @@ const projectsData = [
         id: 5,
         title: `Speech Center Website`,
         description: `#HTML #CSS #JS`,
-        image: '/images/projects/2.png',
+        image: '/images/projects/mir.png',
         tag: ['All', 'Web + Design'],
         link: 'https://mirpoznanija.ru/'
     },
@@ -43,7 +67,7 @@ const projectsData = [
         id: 6,
         title: `Right Bins Pages`,
         description: `#WORDPRESS #WPBAKERY`,
-        image: '/images/projects/9.png',
+        image: '/images/projects/rightbins.png',
         tag: ['All', 'Web + Design'],
         link: 'https://rightbins.ca/bobcat-track-loader-rental/'
     },
@@ -51,7 +75,7 @@ const projectsData = [
         id: 7,
         title: `DeKrupe Law Pages`,
         description: `#WORDPRESS #WPBAKERY`,
-        image: '/images/projects/8.png',
+        image: '/images/projects/dekrupe.png',
         tag: ['All', 'Web'],
         link: 'https://dekrupelaw.ca/divorce-lawyers-toronto-gta/'
     },
@@ -59,7 +83,7 @@ const projectsData = [
         id: 8,
         title: `Crypto Wallet Landing Page`,
         description: `#HTML #SCSS #JS`,
-        image: '/images/projects/4.png',
+        image: '/images/projects/crypto.png',
         tag: ['All', 'Web'],
         link: 'https://thriwax.github.io/landing-page-crypto-wallet/'
     },
@@ -67,15 +91,15 @@ const projectsData = [
         id: 9,
         title: `NFT Marketplace Landing Page`,
         description: `#HTML #SCSS #JS`,
-        image: '/images/projects/5.png',
+        image: '/images/projects/nft.png',
         tag: ['All', 'Web'],
         link: 'https://thriwax.github.io/landing-page-nft-markteplace/'
     },
     {
         id: 10,
         title: `Portfolio Website`,
-        description: `#NEXT.JS #TAILWIND`,
-        image: '/images/projects/6.png',
+        description: `#NEXT.JS #REACT #TAILWIND`,
+        image: '/images/projects/myportfolio.png',
         tag: ['All', 'Web + Design'],
         link: '/'
     },
@@ -83,7 +107,7 @@ const projectsData = [
         id: 11,
         title: `Instabot Landing Page`,
         description: `#HTML #CSS`,
-        image: '/images/projects/7.png',
+        image: '/images/projects/instaboty.png',
         tag: ['All', 'Web'],
         link: 'https://thriwax.github.io/landing-page-instabot/'
     }
