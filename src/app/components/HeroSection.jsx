@@ -33,7 +33,7 @@ const HeroSection = () => {
                     <div>
                         <button className='px-6 py-3 w-full font-bold sm:w-fit rounded-full mr-4 bg-gradient-to-br from-violet-400 to-blue-500 hover:bg-slate-200 text-white shadow-inner hover:animate-pulse'><a href='https://www.linkedin.com/in/fedor-tatarintsev'>Hire Me</a></button>
                         <button className='px-1 py-1 w-full font-bold sm:w-fit rounded-full bg-gradient-to-br from-violet-400 to-blue-500 hover:bg-slate-800 text-black mt-3 shadow-inner'>
-                            <span className='block bg-[#f5f5f5] hover:bg-slate-200 rounded-full px-5 py-2'><a href='https://drive.google.com/file/d/18XPQkzh1DrlXjhSl0mTomE0VaiQfcZBt/view?usp=sharing'>Download CV</a></span>
+                            <span className='block bg-[#f5f5f5] hover:bg-slate-200 rounded-full px-5 py-2'><a href='https://drive.google.com/file/d/1tkSsYVJrqPp0zmmp8jYdVLmTNxs7B1pC/view?usp=sharing'>Download CV</a></span>
                         </button>
                     </div>
                 </div>

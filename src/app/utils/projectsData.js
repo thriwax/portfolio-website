@@ -45,7 +45,7 @@ const projectsData = [
         description: `#WORDPRESS #ELEMENTOR #FIGMA`,
         image: '/images/projects/quantis.png',
         tag: ['All', 'Web + Design'],
-        link: 'https://fiableluxury.com/'
+        link: 'https://citizenship4investment.com/'
     },
     {
         id: 4,
@@ -65,6 +65,22 @@ const projectsData = [
     },
     {
         id: 6,
+        title: `Al Saeb Real Estate Website`,
+        description: `#WORDPRESS #ELEMENTOR`,
+        image: '/images/projects/al-saeb.png',
+        tag: ['All', 'Web + Design'],
+        link: 'https://uae.alsaeb.com/'
+    },
+    {
+        id: 7,
+        title: `AECP Website`,
+        description: `#WORDPRESS #ELEMENTOR`,
+        image: '/images/projects/aepc.png',
+        tag: ['All', 'Web'],
+        link: 'https://aepctravelpack.com/'
+    },
+    {
+        id: 8,
         title: `Right Bins Pages`,
         description: `#WORDPRESS #WPBAKERY`,
         image: '/images/projects/rightbins.png',
@@ -72,7 +88,7 @@ const projectsData = [
         link: 'https://rightbins.ca/bobcat-track-loader-rental/'
     },
     {
-        id: 7,
+        id: 9,
         title: `DeKrupe Law Pages`,
         description: `#WORDPRESS #WPBAKERY`,
         image: '/images/projects/dekrupe.png',
@@ -80,7 +96,7 @@ const projectsData = [
         link: 'https://dekrupelaw.ca/divorce-lawyers-toronto-gta/'
     },
     {
-        id: 8,
+        id: 10,
         title: `Crypto Wallet Landing Page`,
         description: `#HTML #SCSS #JS`,
         image: '/images/projects/crypto.png',
@@ -88,7 +104,7 @@ const projectsData = [
         link: 'https://thriwax.github.io/landing-page-crypto-wallet/'
     },
     {
-        id: 9,
+        id: 11,
         title: `NFT Marketplace Landing Page`,
         description: `#HTML #SCSS #JS`,
         image: '/images/projects/nft.png',
@@ -96,7 +112,7 @@ const projectsData = [
         link: 'https://thriwax.github.io/landing-page-nft-markteplace/'
     },
     {
-        id: 10,
+        id: 12,
         title: `Portfolio Website`,
         description: `#NEXT.JS #REACT #TAILWIND`,
         image: '/images/projects/myportfolio.png',
@@ -104,7 +120,7 @@ const projectsData = [
         link: '/'
     },
     {
-        id: 11,
+        id: 13,
         title: `Instabot Landing Page`,
         description: `#HTML #CSS`,
         image: '/images/projects/instaboty.png',
