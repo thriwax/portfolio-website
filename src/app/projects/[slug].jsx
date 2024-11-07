@@ -4,14 +4,14 @@ import projects from '../utils/projectsData';
 
 const ProjectPage = () => {
   const [project, setProject] = useState(null);
-  const { query } = useRouter();
+  const { query, isReady } = useRouter();
 
   useEffect(() => {
-    if (query.slug) {
-      const foundProject = projects.find((p) => p.id === query.slug);
+    if (isReady && query.slug) {
+      const foundProject = projects.find((p) => p.id === String(query.slug));
       setProject(foundProject);
     }
-  }, [query.slug]); // Указываем query.slug как зависимость
+  }, [isReady, query.slug]);
 
   return (
     <>
@@ -21,10 +21,11 @@ const ProjectPage = () => {
           <p>{project.description}</p>
         </div>
       ) : (
-        <div>Loading...</div>
+        <div>404: Проект не найден</div>
       )}
     </>
   );
 };
 
 export default ProjectPage;
+
