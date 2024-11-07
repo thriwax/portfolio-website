@@ -5,7 +5,7 @@ const projectsData = [
         description: `#NEXT.JS #REACT #SCSS #FIGMA`,
         image: '/images/projects/khoros.png',
         tag: ['All', 'Web + Design'],
-        link: 'https://www.xop.su/'
+        link: 'https://khoros-site.vercel.app/'
     },
     {
         id: 2,
