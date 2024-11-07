@@ -1,12 +1,17 @@
 import React, { useMemo } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import projectsData from '../utils/projectsData';
-import Link from 'next/link';
 
 const ProjectsPage = () => {
   const memoizedProjects = useMemo(() => {
     return projectsData.map((project) => (
-      <Link key={project.id} href={`/projects/${project.id}`}><ProjectCard title={project.title} description={project.description} imgUrl={project.image} link={project.link} /></Link>
+      <ProjectCard 
+        key={project.id}
+        title={project.title}
+        description={project.description}
+        imgUrl={project.image}
+        link={project.link} 
+      />
     ));
   }, [projectsData]); // Передаем зависимость projectsData
 
