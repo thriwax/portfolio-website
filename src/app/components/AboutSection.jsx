@@ -65,6 +65,8 @@ const TAB_DATA = [
                 <li><a href='https://www.justwebagency.com/' target='_blank' className='font-semibold'>Just Web Agency (CA)</a> - 'Wordpress Developer' (February 2023 - September 2023)</li>
                 <li><a href='https://wgg-agency.com/' target='_blank' className='font-semibold'>WGG Agency (UAE)</a> - 'Wordpress Developer' (September 2023 - January 2024)</li>
                 <li><a href='https://rosze.ru/' target='_blank' className='font-semibold'>Rostov Electronics Factory</a> - 'Linux Embedded Developer' (January 2024 - March 2024)</li>
+                <li>NDA - 'Wordpress Developer' (March 2024 - May 2024)</li>
+                <li><a href='https://digitalstrategy.ru/' target='_blank' className='font-semibold'>Digital Strategy</a> - 'PBN Developer' (June 2024 - Still Working)</li>
             </ul>
         )
     }
