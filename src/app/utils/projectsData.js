@@ -39,8 +39,16 @@ const projectsData = [
         tag: ['All', 'Web + Design'],
         link: 'https://mirpoznanija.ru/'
     },
-    {
+        {
         id: 6,
+        title: `Gas Tracker`,
+        description: `#NEXTJS #ETHERS #JS`,
+        image: '/images/projects/gas-tracker.jpg',
+        tag: ['All', 'Web + Design'],
+        link: 'https://get-gas-price.vercel.app/'
+    },
+    {
+        id: 7,
         title: `Right Bins Pages`,
         description: `#WORDPRESS #WPBAKERY`,
         image: '/images/projects/rightbins.png',
@@ -48,7 +56,7 @@ const projectsData = [
         link: 'https://rightbins.ca/bobcat-track-loader-rental/'
     },
     {
-        id: 7,
+        id: 8,
         title: `DeKrupe Law Pages`,
         description: `#WORDPRESS #WPBAKERY`,
         image: '/images/projects/dekrupe.png',
@@ -56,7 +64,7 @@ const projectsData = [
         link: 'https://dekrupelaw.ca/divorce-lawyers-toronto-gta/'
     },
     {
-        id: 8,
+        id: 9,
         title: `Crypto Wallet Landing Page`,
         description: `#HTML #SCSS #JS`,
         image: '/images/projects/crypto.png',
@@ -64,7 +72,7 @@ const projectsData = [
         link: 'https://thriwax.github.io/landing-page-crypto-wallet/'
     },
     {
-        id: 9,
+        id: 10,
         title: `NFT Marketplace Landing Page`,
         description: `#HTML #SCSS #JS`,
         image: '/images/projects/nft.png',
@@ -72,7 +80,7 @@ const projectsData = [
         link: 'https://thriwax.github.io/landing-page-nft-markteplace/'
     },
     {
-        id: 10,
+        id: 11,
         title: `Portfolio Website`,
         description: `#NEXT.JS #REACT #TAILWIND`,
         image: '/images/projects/myportfolio.png',
@@ -80,7 +88,7 @@ const projectsData = [
         link: '/'
     },
     {
-        id: 11,
+        id: 12,
         title: `Instabot Landing Page`,
         description: `#HTML #CSS`,
         image: '/images/projects/instaboty.png',
