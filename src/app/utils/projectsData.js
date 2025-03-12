@@ -9,14 +9,6 @@ const projectsData = [
     },
     {
         id: 2,
-        title: 'Denis Zuev - Official Website',
-        description: `#WORDPRESS #ELEMENTOR #FIGMA`,
-        image: '/images/projects/deniszuev.png',
-        tag: ['All', 'Web + DESIGN'],
-        link: 'https://zuevboxing.com/'
-    },
-    {
-        id: 3,
         title: 'RoseCare - Shop',
         description: `#WORDPRESS #WOOCOMMERCE #ELEMENTOR #FIGMA`,
         image: '/images/projects/rosecare.png',
@@ -24,7 +16,7 @@ const projectsData = [
         link: 'https://rosecare.ps/'
     },
     {
-        id: 2,
+        id: 3,
         title: `LVG Real Estate Agency - Website`,
         description: `#WORDPRESS #ELEMENTOR #FIGMA`,
         image: '/images/projects/lvg.png',
@@ -32,28 +24,12 @@ const projectsData = [
         link: 'https://lvgrealestatedubai.com/'
     },
     {
-        id: 3,
+        id: 4,
         title: `Fiable`,
         description: `#WORDPRESS #WOOCOMMERCE #ELEMENTOR`,
         image: '/images/projects/fiable.png',
         tag: ['All', 'Web + Design'],
         link: 'https://fiableluxury.com/'
-    },
-    {
-        id: 4,
-        title: `Quantis Consultants - Website`,
-        description: `#WORDPRESS #ELEMENTOR #FIGMA`,
-        image: '/images/projects/quantis.png',
-        tag: ['All', 'Web + Design'],
-        link: 'https://citizenship4investment.com/'
-    },
-    {
-        id: 4,
-        title: `Equipment Rental Website`,
-        description: `#HTML #SCSS #JS`,
-        image: '/images/projects/kolomna.png',
-        tag: ['All', 'Web + Design'],
-        link: 'https://xn----7sbbrpejcjkehcibuqsd5d.xn--p1ai/'
     },
     {
         id: 5,
@@ -65,22 +41,6 @@ const projectsData = [
     },
     {
         id: 6,
-        title: `Al Saeb Real Estate Website`,
-        description: `#WORDPRESS #ELEMENTOR`,
-        image: '/images/projects/al-saeb.png',
-        tag: ['All', 'Web + Design'],
-        link: 'https://uae.alsaeb.com/'
-    },
-    {
-        id: 7,
-        title: `AECP Website`,
-        description: `#WORDPRESS #ELEMENTOR`,
-        image: '/images/projects/aepc.png',
-        tag: ['All', 'Web'],
-        link: 'https://aepctravelpack.com/'
-    },
-    {
-        id: 8,
         title: `Right Bins Pages`,
         description: `#WORDPRESS #WPBAKERY`,
         image: '/images/projects/rightbins.png',
@@ -88,7 +48,7 @@ const projectsData = [
         link: 'https://rightbins.ca/bobcat-track-loader-rental/'
     },
     {
-        id: 9,
+        id: 7,
         title: `DeKrupe Law Pages`,
         description: `#WORDPRESS #WPBAKERY`,
         image: '/images/projects/dekrupe.png',
@@ -96,7 +56,7 @@ const projectsData = [
         link: 'https://dekrupelaw.ca/divorce-lawyers-toronto-gta/'
     },
     {
-        id: 10,
+        id: 8,
         title: `Crypto Wallet Landing Page`,
         description: `#HTML #SCSS #JS`,
         image: '/images/projects/crypto.png',
@@ -104,7 +64,7 @@ const projectsData = [
         link: 'https://thriwax.github.io/landing-page-crypto-wallet/'
     },
     {
-        id: 11,
+        id: 9,
         title: `NFT Marketplace Landing Page`,
         description: `#HTML #SCSS #JS`,
         image: '/images/projects/nft.png',
@@ -112,7 +72,7 @@ const projectsData = [
         link: 'https://thriwax.github.io/landing-page-nft-markteplace/'
     },
     {
-        id: 12,
+        id: 10,
         title: `Portfolio Website`,
         description: `#NEXT.JS #REACT #TAILWIND`,
         image: '/images/projects/myportfolio.png',
@@ -120,7 +80,7 @@ const projectsData = [
         link: '/'
     },
     {
-        id: 13,
+        id: 11,
         title: `Instabot Landing Page`,
         description: `#HTML #CSS`,
         image: '/images/projects/instaboty.png',
